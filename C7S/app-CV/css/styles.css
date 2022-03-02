@@ -1,0 +1,60 @@
+nav,
+.susbcritete {
+  background: orange;
+}
+.orange {
+  background: #f0a83e;
+  color: white;
+}
+
+.grey {
+  /* margin: auto; */
+  padding: 0.4rem;
+  background: grey;
+  color: #005677;
+}
+.centerName {
+  text-align: center;
+}
+.marginMain {
+  margin-bottom: 10rem;
+}
+h1 {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 84.69%;
+  letter-spacing: 0.2em;
+}
+h2 {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 84.69%;
+  letter-spacing: 0.2em;
+  /* identical to box height, or 17px */
+  /* font-feature-settings: "cpsp" on; */
+}
+ul {
+  list-style: none;
+}
+ul li strong {
+  font-family: Times New Roman;
+  font-style: italic;
+  /* font-weight: bold; */
+  font-size: 15px;
+  line-height: 84.69%;
+}
+ul li {
+  margin: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #005677;
+  color: white;
+}
