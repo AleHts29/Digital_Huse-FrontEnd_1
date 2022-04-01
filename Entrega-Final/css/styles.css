@@ -61,7 +61,7 @@ footer p {
   /* generales */
   .bg-img {
     margin: 0;
-    padding: 0;
+    padding: 0.5%;
     background: right top / 80% url("../img/bg-tablet-pattern.svg") repeat-y;
     background-position: 200%;
   }
@@ -286,6 +286,9 @@ footer p {
   }
 
   /* nav menu */
+  .btn-menu {
+    cursor: pointer;
+  }
   nav .fa-bars {
     display: none;
   }
@@ -294,8 +297,14 @@ footer p {
     list-style: none;
     text-align: right;
   }
+
   nav ul li {
     margin: 1rem;
+    padding: 5px;
+  }
+  nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
   }
 
   /* banner top */
