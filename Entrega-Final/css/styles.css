@@ -13,8 +13,18 @@
   padding: 2%;
   margin: 2%;
 }
-a {
+a,
+button {
   text-decoration: none;
+}
+button {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  background-color: #e1431b;
+}
+button:active {
+  background-color: #a4371c;
 }
 
 h1,
@@ -50,6 +60,8 @@ footer p {
 @media (min-width: 375px) and (max-width: 1279px) {
   /* generales */
   .bg-img {
+    margin: 0;
+    padding: 0;
     background: right top / 80% url("../img/bg-tablet-pattern.svg") repeat-y;
     background-position: 200%;
   }
@@ -135,7 +147,7 @@ footer p {
 
   /* Cards coments */
   .card {
-    border: solid #f3613c35;
+    border: none;
     margin: 5% 0;
     padding: 5%;
 
@@ -358,7 +370,7 @@ footer p {
     justify-content: space-around;
   }
   .card {
-    border: solid #f3613c35;
+    border: none;
     margin: 2%;
     padding: 2%;
     border-radius: 8px;
